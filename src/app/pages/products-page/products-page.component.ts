@@ -22,7 +22,4 @@ export class ProductsPageComponent implements OnInit {
       error: err => alert('une erreur est survenue!')
     })
   }
-
-
-
 }
