@@ -1,0 +1,17 @@
+<div class="basket-list">
+    <div class="basket-card">
+      <div class="basket-header">
+        <h2>{{ basket.id }}</h2>
+        <p>{{ basket.date }}</p>
+      </div>
+      <div class="basket-details">
+      @for (product of basket.products; track $index) {
+        <div class="product-item">
+            <p><strong>Product ID:</strong> {{ product.productId }}</p>
+            <p><strong>Quantity:</strong> {{ product.quantity }}</p>
+          </div>
+      }
+      </div>
+    </div>
+</div>
+  

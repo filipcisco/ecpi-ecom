@@ -1,4 +1,5 @@
-.user-card {
+
+.basket-card {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
@@ -6,7 +7,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
   
-    .user-header {
+    .basket-header {
       margin-bottom: 8px;
     }
   
@@ -21,8 +22,11 @@
       color: #666;
     }
   
-    .user-details {
+    .basket-details {
       font-size: 0.9rem;
-    }
-  }
   
+      .product-item {
+        margin-bottom: 8px;
+      }
+    }
+}
