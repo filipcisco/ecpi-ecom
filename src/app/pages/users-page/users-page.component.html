@@ -1,1 +1,7 @@
-<p>users-page works!</p>
+<h1 class="title">Users Liste</h1>
+
+<div class="liste">
+    @for (user of users; track $index) {
+        <app-user class="user" [user]="user"></app-user>
+    }
+</div>

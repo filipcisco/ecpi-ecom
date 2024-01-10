@@ -1,0 +1,7 @@
+<h1 class="title">Baskets Liste</h1>
+
+<div class="liste">
+    @for (basket of baskets; track $index) {
+        <app-basket class="basket" [basket]="basket"></app-basket>
+    }
+</div>
